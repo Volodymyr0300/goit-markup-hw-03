@@ -218,6 +218,7 @@ ul {
   padding: 10px 32px;
   margin: 30px 492px 200px 492px;
   border-radius: 4px;
+  border-color: transparent;
 }
 
 .main-section-button:hover,
@@ -424,6 +425,7 @@ ul {
 
   margin-top: 94px;
   border-radius: 4px;
+  border-color: transparent;
 }
 
 .portfolio-button:hover,
