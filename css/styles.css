@@ -217,6 +217,7 @@ ul {
 
   padding: 10px 32px;
   margin: 30px 492px 200px 492px;
+  border-radius: 4px;
 }
 
 .main-section-button:hover,
@@ -422,6 +423,7 @@ ul {
   color: var(--text-color);
 
   margin-top: 94px;
+  border-radius: 4px;
 }
 
 .portfolio-button:hover,
