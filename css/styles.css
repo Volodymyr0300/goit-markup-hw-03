@@ -34,7 +34,7 @@ img {
   box-sizing: inherit;
 }
 
-*/ body {
+* body {
   font-family: "Roboto", sans-serif;
   color: #757575;
   background-color: var(--background-color-white);
@@ -200,6 +200,7 @@ ul {
 } */
 
 .main-section-title {
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -208,9 +209,14 @@ ul {
   text-transform: uppercase;
   color: var(--background-color-white);
 
-  padding-bottom: 30px;
+  /* changed padding-botton to margin-botton */
+  margin-bottom: 30px;
   max-width: 696px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  /* add margin-left and margin-right insted of margin: 0 auto */
+  /* додано замість маржін 0 ауто */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-section-button {
@@ -252,6 +258,7 @@ ul {
 }
 
 .main-products-title {
+  /* font-family: "Roboto", sans-serif; */
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
